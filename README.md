@@ -1,5 +1,6 @@
 # wkw-token
 
+- ERC-20 Token
 - Goerli Testnet (Ethereum ledger)
 - Token Symbol: WKW
 - Token Name: wookingwoo-token
