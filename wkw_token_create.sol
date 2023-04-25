@@ -1,22 +1,15 @@
 pragma solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
-// Sample token contract
+// wookingwoo token contract
 //
-// Symbol        : INVEN
-// Name          : INVEN Token
-// Total supply  : 100000
+// Symbol        : WKW
+// Name          : wookingwoo-token
+// Total supply  : 10000000
 // Decimals      : 2
 // Owner Account : 0x158f021eD2045eE348d5b85A76AcaB5d4FEF1b9b
-//
-// Enjoy.
-//
-// (c) by Idea Inven Doohee 2021. DM Licence.
 // ----------------------------------------------------------------------------
 
-// ----------------------------------------------------------------------------
-// Lib: Safe Math
-// ----------------------------------------------------------------------------
 contract SafeMath {
     function safeAdd(uint a, uint b) public pure returns (uint c) {
         c = a + b;
